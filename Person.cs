@@ -51,7 +51,7 @@ namespace Project2
 
         public static double averageAge()
         {
-            return Person.sumOfAllAges/ Person.count++;
+            return Person.sumOfAllAges/ Person.count;
         }
     }
 }
