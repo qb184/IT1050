@@ -38,10 +38,7 @@ namespace Project2
             p1.spouse.printNameAndAge();
             p2.printNameAndAge();
             p2.spouse.printNameAndAge();
-
-
-            //Console.WriteLine(Person.sumOfAllAges);
-            //Console.WriteLine(Person.count++);
+            
             Console.WriteLine("\n");
             Console.WriteLine("Average age = " + Person.averageAge());
 
