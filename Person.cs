@@ -30,7 +30,7 @@ namespace Project2
             Console.Write("How old are you?                 ");
             age = int.Parse(Console.ReadLine());
             count++;
-            sumOfAllAges= sumOfAllAges+ age;
+            sumOfAllAges= sumOfAllAges + age;
         }
 
         public void askSpouse()
@@ -45,7 +45,7 @@ namespace Project2
                 spouse.age = int.Parse(Console.ReadLine());
                 spouse.lastName = lastName;
                 count++;
-                sumOfAllAges= sumOfAllAges+spouse.age;
+                sumOfAllAges= sumOfAllAges + spouse.age;
             }
         }
 
